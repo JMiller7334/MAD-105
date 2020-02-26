@@ -1,5 +1,5 @@
 enum class Position {ADMINISTRATION, PRODUCTION, SALES, MAINTENANCE, TECHNICAL, SECRETARIAL};
-// This won't format correctly with the class string. This enum class doesn't do anything.
+
 
 
 class Employee constructor(name: String, job: Position, salary: Boolean, shift: Int, payrate: Double) {
