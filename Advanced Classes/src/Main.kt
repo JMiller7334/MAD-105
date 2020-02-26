@@ -6,5 +6,9 @@ fun main(){
     var worker2 = Employee("Artoria", Position.SECRETARIAL, true, 2,860.00);
     worker2.printInfo()
     worker2.calcPay(40.00)
+    
+    var worker3 = Employee("Bob", Position.SECRETARIAL, false, 1, 12);
+    worker3.printInfo()
+    worker3.calcPay(48.00)
 }
 
